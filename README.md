@@ -1,27 +1,43 @@
-# AgendaPacientes
+# Agenda de Pacientes
+Aplicação desenvolvida utilizando Angular e Spring Boot para controle de agendamento de consulta de pacientes atendidos por profissionais da psicologia.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.6.
+<p align="left"> 
+  <img src="https://komarev.com/ghpvc/?username=wdnzs&label=Profile%20views&color=0e75b6&style=flat" alt="wdnzs" /> 
+</p>
+ 
+# Ferramentas utilizas no desenvolvimento desta aplicação
 
-## Development server
+Os frameworks Angular, NodeJs e Spring são atualizados periódicamente.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+<a href="https://angular.io">
+  <img
+    src="https://github.com/devicons/devicon/blob/master/icons/angularjs/angularjs-original.svg"
+    width="40" 
+    height="40"
+    alt="Página Oficial do Angular" />
+</a>
+<a></a>
+<a href="https://openjdk.org/">
+  <img
+    src="https://github.com/devicons/devicon/blob/master/icons/java/java-original.svg"
+    width="40" 
+    height="50"
+    alt="Página Oficial do OpenJDK" />
+</a>
+<a></a>
+<a href="https://spring.io/">
+  <img
+    src="https://github.com/devicons/devicon/blob/master/icons/spring/spring-original.svg"
+    width="40" 
+    height="40"
+    alt="Página Oficial do Spring" />
+</a>
+<a></a>
+<a href="https://nodejs.org/en">
+  <img
+    src="https://github.com/devicons/devicon/blob/master/icons/nodejs/nodejs-plain.svg"
+    width="40" 
+    height="40"
+    alt="Página Oficial do NodeJS" />
+</a>
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
