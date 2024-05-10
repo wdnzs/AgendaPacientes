@@ -1,3 +1,46 @@
-.example-container mat-form-field + mat-form-field {
-  margin-left: 8px;
+.container {
+  text-align: center;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: row;
+  align-content: center;
+  overflow-x: hidden;
+  max-width: 100%;
+  padding: 0;
+}
+
+.login {
+  text-align: left;
+}
+
+.mat-card-content {
+  padding: 0;
+  background-color:lavenderblush;
+  text-align: center;
+}
+
+.imagem {
+  width: 300px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.button-container {
+  display: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.example-section {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  height: 60px;
+}
+
+.example-margin {
+  margin: 0 10px;
 }

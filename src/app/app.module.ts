@@ -10,6 +10,15 @@ import { FinanceiroComponent } from './financeiro/financeiro.component';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 import { MatInputModule } from '@angular/material/input';
 import { ReactiveFormsModule } from '@angular/forms';
+import {MatCardModule} from '@angular/material/card';
+
+import {MatIconModule} from '@angular/material/icon';
+import {MatButtonModule} from '@angular/material/button';
+import {MatFormFieldModule} from '@angular/material/form-field';
+
+import {MatRadioModule} from '@angular/material/radio';
+import {FormsModule} from '@angular/forms';
+import {MatCheckboxModule} from '@angular/material/checkbox';
 
 @NgModule({
   declarations: [
@@ -17,13 +26,20 @@ import { ReactiveFormsModule } from '@angular/forms';
     LoginComponent,
     CadastroComponent,
     AgendaComponent,
-    FinanceiroComponent
+    FinanceiroComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     MatInputModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    MatCardModule,
+    MatIconModule,
+    MatButtonModule,
+    MatFormFieldModule,
+    MatRadioModule,
+    FormsModule,
+    MatCheckboxModule
   ],
   providers: [
     provideClientHydration(),

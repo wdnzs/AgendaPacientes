@@ -1,14 +1,42 @@
-<div class="example-container">
-  <mat-form-field>
-    <mat-label>Enter your email</mat-label>
-    <input matInput
-           placeholder="pat@example.com"
-           [formControl]="email"
-           (blur)="updateErrorMessage()"
-           required>
-    @if (email.invalid) {
-      <mat-error>{{errorMessage}}</mat-error>
-    }
-  </mat-form-field>
-</div>
+<mat-card class="mat-card-content">
+  <div class="container">
+    <img src="assets/imagens/cerebro.png" alt="Cerebro" class="imagem" />
 
+    <mat-form-field>
+      <mat-label>Usuário</mat-label>
+      <input matInput [formControl]="usuario" required />
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-label>Senha</mat-label>
+      <input
+        matInput
+        [type]="hide ? 'password' : 'text'"
+        [formControl]="usuario"
+        required
+      />
+      <button
+        mat-icon-button
+        matSuffix
+        (click)="hide = !hide"
+        [attr.aria-label]="'Hide password'"
+        [attr.aria-pressed]="hide"
+      >
+        <mat-icon>{{ hide ? "visibility_off" : "visibility" }}</mat-icon>
+      </button>
+    </mat-form-field>
+
+    <section class="example-section">
+      <mat-checkbox class="example-margin" [(ngModel)]="manterLogado"
+        >Manter-me logado.</mat-checkbox
+      >
+      <mat-checkbox class="example-margin" [(ngModel)]="esqueceuSenha"
+        >Esqueceu a senha?</mat-checkbox
+      >
+    </section>
+
+    <div class="button-container" color="primary">
+      <button mat-flat-button color="primary">Entrar</button>
+    </div>
+  </div>
+</mat-card>

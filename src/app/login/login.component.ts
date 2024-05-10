@@ -1,34 +1,29 @@
-import { Component } from "@angular/core";
-import { FormControl, Validators } from "@angular/forms";
-import { merge } from "rxjs";
-import {takeUntilDestroyed} from '@angular/core/rxjs-interop';
+import { Component } from '@angular/core';
+import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
+import { FormControl, Validators } from '@angular/forms';
+import { merge } from 'rxjs';
 
-/** @title Form field with error messages */
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
   styleUrl: './login.component.scss'
 })
 export class LoginComponent {
-  email = new FormControl('', [Validators.required, Validators.email]);
+
+  usuario = new FormControl('', [Validators.required, Validators.required]);
+  senha = new FormControl('', [Validators.required, Validators.required]);
+
+  manterLogado = false;
+  esqueceuSenha = false;
 
   errorMessage = '';
+  hide: boolean = true;
 
   constructor() {
-    merge(this.email.statusChanges, this.email.valueChanges)
-      .pipe(takeUntilDestroyed())
-      .subscribe(() => this.updateErrorMessage());
+
   }
 
-  updateErrorMessage() {
-    if (this.email.hasError('required')) {
-      this.errorMessage = 'You must enter a value';
-    } else if (this.email.hasError('email')) {
-      this.errorMessage = 'Not a valid email';
-    } else {
-      this.errorMessage = '';
-    }
-  }
+
 }
 
 
