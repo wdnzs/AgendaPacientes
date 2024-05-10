@@ -19,6 +19,7 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatRadioModule} from '@angular/material/radio';
 import {FormsModule} from '@angular/forms';
 import {MatCheckboxModule} from '@angular/material/checkbox';
+import { MenuComponent } from './menu/menu.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import {MatCheckboxModule} from '@angular/material/checkbox';
     CadastroComponent,
     AgendaComponent,
     FinanceiroComponent,
+    MenuComponent,
   ],
   imports: [
     BrowserModule,
