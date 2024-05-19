@@ -5,11 +5,9 @@ import { AgendaComponent } from './agenda/agenda.component';
 import { CadastroComponent } from './cadastro/cadastro.component';
 import { FinanceiroComponent } from './financeiro/financeiro.component';
 import { LoginComponent } from './login/login.component';
-import { MenuComponent } from './menu/menu.component';
 
 const routes: Routes = [
   { path: '', component: LoginComponent },
-  { path: 'menu', component: MenuComponent },
   { path: 'agenda', component: AgendaComponent },
   { path: 'cadastro', component: CadastroComponent },
   { path: 'financeiro', component: FinanceiroComponent },
