@@ -5,7 +5,7 @@ Projeto de desenvolvimento de uma agenda de consulta de pacientes atendidos por 
   <img src="https://komarev.com/ghpvc/?username=wdnzs&label=Profile%20views&color=0e75b6&style=flat" alt="wdnzs" /> 
 </p>
  
-# Ferramentas utilizas
+# Ferramentas utilizadas
 
 
 <a href="https://angular.io">
