@@ -1,13 +1,12 @@
 # Agenda de Pacientes
-Aplicação desenvolvida utilizando Angular e Spring Boot para controle de agendamento de consulta de pacientes atendidos por profissionais da psicologia.
+Projeto de desenvolvimento de uma agenda de consulta de pacientes atendidos por profissionais da área de psicologia utilizando Angular.
 
 <p align="left"> 
   <img src="https://komarev.com/ghpvc/?username=wdnzs&label=Profile%20views&color=0e75b6&style=flat" alt="wdnzs" /> 
 </p>
  
-# Ferramentas utilizas no desenvolvimento desta aplicação
+# Ferramentas utilizas
 
-Os frameworks Angular, NodeJs e Spring são atualizados periódicamente.
 
 <a href="https://angular.io">
   <img
@@ -19,18 +18,18 @@ Os frameworks Angular, NodeJs e Spring são atualizados periódicamente.
 <a></a>
 <a href="https://openjdk.org/">
   <img
-    src="https://github.com/devicons/devicon/blob/master/icons/java/java-original.svg"
+    src="https://github.com/devicons/devicon/blob/master/icons/typescript/typescript-original.svg"
     width="40" 
     height="50"
-    alt="Página Oficial do OpenJDK" />
+    alt="Typescript" />
 </a>
 <a></a>
 <a href="https://spring.io/">
   <img
-    src="https://github.com/devicons/devicon/blob/master/icons/spring/spring-original.svg"
+    src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg"
     width="40" 
     height="40"
-    alt="Página Oficial do Spring" />
+    alt="HTML" />
 </a>
 <a></a>
 <a href="https://nodejs.org/en">
@@ -40,4 +39,3 @@ Os frameworks Angular, NodeJs e Spring são atualizados periódicamente.
     height="40"
     alt="Página Oficial do NodeJS" />
 </a>
-
