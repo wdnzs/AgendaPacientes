@@ -1,27 +1,27 @@
-# AgendaPacientes
+# Agenda de Pacientes
+Projeto de desenvolvimento de uma agenda de pacientes utilizando Angular.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.7.
+<p align="left"> 
+  <img src="https://komarev.com/ghpvc/?username=wdnzs&label=Profile%20views&color=0e75b6&style=flat" alt="wdnzs" /> 
+</p>
+ 
+# Ferramentas utilizas
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+<a></a>
+<a>
+  <img
+    src="https://github.com/devicons/devicon/blob/master/icons/angular/angular-original.svg"
+    width="40" 
+    height="50"
+    alt="Angular" />
+  <img
+    src="https://github.com/devicons/devicon/blob/master/icons/typescript/typescript-original.svg"
+    width="40" 
+    height="50"
+    alt="Typescript" />
+  <img
+    src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg"
+    width="40" 
+    height="50"
+    alt="HTML 5" />
+</a>
