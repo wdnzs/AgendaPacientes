@@ -1,6 +1,42 @@
 :host {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('/assets/imagens/logomarca.png'); /* Caminho para a sua imagem */
+  background-size: cover; /* A imagem irá cobrir toda a área */
+  background-position: center; /* A imagem será centralizada */
+  background-repeat: no-repeat; /* Evita repetição da imagem */
+}
+
+.toolbar-container {
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 80px;
+}
+
+.form-card {
+  width: 100%;
+  max-width: 600px;
+  padding: 24px;
+  background-color: rgba(255, 255, 255, 0.9); /* Fundo branco com leve transparência para destacar o formulário */
+  border-radius: 8px;
+}
+
+.form-row {
+  display: flex;
+  gap: 16px;
+}
+
+.form-field {
+  flex: 1;
+}

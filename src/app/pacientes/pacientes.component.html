@@ -1,17 +1,124 @@
- <mat-card>
-  <mat-form-field>
-    <mat-label>Nome</mat-label>
-    <input matInput>
-  </mat-form-field>
-  <mat-form-field>
-    <mat-label>Select</mat-label>
-    <mat-select>
-      <mat-option value="one">First option</mat-option>
-      <mat-option value="two">Second option</mat-option>
-    </mat-select>
-  </mat-form-field>
-  <mat-form-field>
-    <mat-label>Textarea</mat-label>
-    <textarea matInput></textarea>
-  </mat-form-field>  
-</mat-card>
+<div class="toolbar-container">
+  <app-toolbar></app-toolbar>
+</div>
+
+<div class="card-container">
+
+  <mat-card class="form-card">
+
+    <div class="form-row">
+      <mat-form-field appearance="fill" class="form-field large-field">
+        <mat-label>Nome</mat-label>
+        <input matInput />
+      </mat-form-field>
+
+    </div>
+
+    <div class="form-row">
+
+      <mat-form-field appearance="fill" class="form-field small-field">
+        <mat-label>Sexo</mat-label>
+        <mat-select>
+          <mat-option value="masculino">Masculino</mat-option>
+          <mat-option value="feminino">Feminino</mat-option>
+        </mat-select>
+      </mat-form-field>
+
+      <mat-form-field appearance="fill" class="form-field small-field">
+        <mat-label>Data Nasc.</mat-label>
+        <input matInput mask="00/00/0000" placeholder="DD/MM/AAAA"/>
+      </mat-form-field>
+
+    </div>
+
+    <div class="form-row">
+
+    <mat-form-field appearance="fill" class="form-field large-field">
+      <mat-label>Endereço</mat-label>
+      <input matInput />
+    </mat-form-field>
+    <mat-form-field appearance="fill" class="small-field">
+      <mat-label>Nº.</mat-label>
+      <input matInput />
+    </mat-form-field>
+
+  </div>
+
+  <div class="form-row">
+
+    <mat-form-field appearance="fill" class="form-field large-field">
+      <mat-label>Bairro</mat-label>
+      <input matInput />
+    </mat-form-field>
+
+  </div>
+
+  <div class="form-row">
+
+    <mat-form-field appearance="fill" class="form-field large-field">
+      <mat-label>Cidade</mat-label>
+      <mat-select>
+        <mat-option value="taubate">Taubaté</mat-option>
+        <mat-option value="tremembe">Tremembé</mat-option>
+      </mat-select>
+    </mat-form-field>
+
+  </div>
+
+  <div class="form-row">
+
+    <mat-form-field appearance="fill" class="form-field large-field">
+      <mat-label>Estado</mat-label>
+      <mat-select>
+        <mat-option value="saoPaulo">São Paulo</mat-option>
+        <mat-option value="brasilia">Brasília</mat-option>
+      </mat-select>
+    </mat-form-field>
+
+  </div>
+
+  <div class="form-row">
+
+    <mat-form-field appearance="fill" class="form-field large-field">
+      <mat-label>País</mat-label>
+      <mat-select>
+        <mat-option value="brasil">Brasil</mat-option>
+        <mat-option value="eua">Estados Unidos</mat-option>
+      </mat-select>
+    </mat-form-field>
+
+  </div>
+
+  <div class="form-row">
+
+    <mat-form-field appearance="fill" class="form-field large-field">
+      <mat-label>RG</mat-label>
+      <input matInput />
+    </mat-form-field>
+
+    <mat-form-field appearance="fill" class="form-field large-field">
+      <mat-label>CPF</mat-label>
+      <input matInput mask="000.000.000-00" placeholder="000.000.000-00"/>
+    </mat-form-field>
+
+  </div>
+
+  <div class="form-row">
+
+    <mat-form-field appearance="fill" class="form-field large-field">
+      <mat-label>Passaporte</mat-label>
+      <input matInput />
+    </mat-form-field>
+
+    <mat-form-field appearance="fill" class="form-field large-field">
+      <mat-label>ID (estrangeiro)</mat-label>
+      <input matInput />
+    </mat-form-field>
+
+  </div>
+
+
+
+
+  </mat-card>
+</div>
